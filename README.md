@@ -63,3 +63,10 @@ AI 처리: Gemini API로 메시지 전달 (사전 정의된 System Prompt에 따
 /start 를 누르거나 요약하고 싶은 긴 글을 채팅창에 전송합니다.
 
 약 2~3초 후, AI가 깔끔하게 정리한 3줄 요약본을 확인합니다.
+
+실행화면<BR>
+
+<img width="1031" height="784" alt="Screenshot_2" src="https://github.com/user-attachments/assets/ea87b5ff-21af-4edf-af79-5d91d23abd98" /><BR>
+
+<img width="556" height="677" alt="Screenshot_1" src="https://github.com/user-attachments/assets/6d902f46-a946-4694-9414-76a5fc2b6365" />
+
