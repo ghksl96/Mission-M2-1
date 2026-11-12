@@ -28,6 +28,12 @@ Automation: Make.com (웹훅 기반 노코드 API 연동 및 데이터 파이프
 
 Version Control: Git / GitHub
 
+### 💡 Git 브랜치 전략 및 원격 리포지토리 관리 (Branch Strategy)
+*   **원격 리포지토리 URL:** https://github.com/ghksl96/Mission-M2-1 (Public 운영)
+*   **브랜치 전략 (GitHub Flow 변형):** 
+    *   `main` 브랜치: 무중단 서비스가 돌아가는 최종 배포용 브랜치 (안정성 보장)
+    *   `feature/prompt-update` (가상 브랜치): 프롬프트 엔지니어링 개선 및 테스트를 진행한 작업 환경. 디스코드 화면 공유를 통한 페어 프로그래밍 완료 후 `main`으로 즉시 병합(Merge)하는 전략을 취함.
+
 4. 서비스 아키텍처 및 워크플로우
 
 본 서비스는 별도의 서버 구축 없이 노코드 툴과 웹훅을 활용한 Serverless 아키텍처로 구성되었습니다.
