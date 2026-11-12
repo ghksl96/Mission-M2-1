@@ -36,12 +36,15 @@ Version Control: Git / GitHub
 
 4. 서비스 아키텍처 및 워크플로우
 ### 🖼️ 서비스 아키텍처 다이어그램
+
 ```mermaid
 graph TD
     A[사용자 텔레그램] -->|텍스트 입력| B(Make.com: Watch Updates)
     B --> C{Google Gemini 1.5}
     C -->|3줄 요약 추출| D(Make.com: Send Message)
     D -->|결과 반환| A
+```
+    
 본 서비스는 별도의 서버 구축 없이 노코드 툴과 웹훅을 활용한 Serverless 아키텍처로 구성되었습니다.
 
 사용자 입력: 사용자가 텔레그램 봇에게 긴 텍스트 전송
